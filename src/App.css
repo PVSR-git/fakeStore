@@ -1,0 +1,36 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+
+body{
+  background: linear-gradient( to right,aqua,deepskyblue)
+  
+}
+.text-warning{
+  color: gold;
+}
+img:hover{
+scale: 1.3;
+border:2px solid fuchsia;
+}
+p{
+  color:#888
+}
+p:hover{
+  color:blue;
+  scale:1.1;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
