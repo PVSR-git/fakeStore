@@ -5,7 +5,9 @@
   text-align: center;
 }
 
-
+Card{
+  src: string;
+}
 
 
 body{

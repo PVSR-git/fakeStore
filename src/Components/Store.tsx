@@ -32,7 +32,7 @@ export default function Store() {
               <h2>{title}</h2>
             </Card.Title>
             <Card.Img
-              src={image}
+              src={image as unknown as string}
               style={{ width: "150px", height: "150px" }}
               className="card-img-top"
               alt="..."
@@ -42,7 +42,7 @@ export default function Store() {
             Go somewhere
           </a>
           <Card.Footer className="bg-transparent border-success">
-            <p> {formatCurrency(price)}</p>
+            <p> {formatCurrency(price as unknown as number)}</p>
           </Card.Footer>
         </Card>
       </div>
