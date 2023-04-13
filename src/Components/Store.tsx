@@ -41,7 +41,7 @@ export default function Store() {
           <a href="#" className="btn btn-primary">
             Go somewhere
           </a>
-          <Card.Footer className="card-footer  bg-transparent border-success">
+          <Card.Footer className="bg-transparent border-success">
             <p> {formatCurrency(price)}</p>
           </Card.Footer>
         </Card>
